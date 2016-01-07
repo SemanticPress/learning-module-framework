@@ -49,7 +49,7 @@ Modularity is achieved by "compartmentalizing" content areas into bite-sized man
 
 The following key components of a module that help define its requirements and structure:
 
-- Difficulty
+- Content Classification
 - Personas
 - Objectives
 - Storyline
@@ -58,23 +58,28 @@ The following key components of a module that help define its requirements and s
 - Exams
 - Resources (*optional: for each persona*)
 
+#### Content Classification
 
-#### Difficulty
+It's important to define a classification number that represents the **difficulty** (or level) of the content.  For example, in the US education system, a course is typically assigned a number based on the level of the course: freshman level (1st yr) courses are 100, sophomore (2nd yr) is 200, junior(3rd yr) is 300, senior (4th yr) is 400. Graduate level is 500.
 
-This is the minimum skill level that you feel is appropriate for a given module.  There are 3 levels, please choose highest level:
+We use a similar classification that summarily defines the minimum skill level that *you consider* appropriate for a given module.  There are 3 levels, please choose highest level:
 
-1. Beginner (core)
-2. Intermediate (features)
-3. Advanced (optimization / automation)
+* 100 - Beginner (core)
+* 200 - Intermediate (features)
+* 300 - Advanced (optimization / automation)
 
 #### Personas
 
-There are 4 personas that we are targeting for SP Learning:
+Personas define the intended audience for a learning module. Although there can be multiple personas with overlapping objectives, it's best to decide the primary personas that will have a stake in all learning [objectives](#objectives).
 
-- **CTO**: "Nico: Technology decision maker - He started the company, it’s his baby. He’s about moving fast but also building something for the long term. He wants to make sure the team has control over their platform and code. The risk is on him so he wants technologies he can trust, especially when it comes to security and privacy."
-- **Biz**: "A.C.: Business - When more focus on the product was needed, Nico hired him. He’s all about velocity like London. He wants products in customers’ hands as fast as possible, and whatever technologies help with that, he likes. He is always monitoring the services and going through data to try to understand his customers better."
-- **Dev**: "London: Developer - While her main job is development, she also does a little monitoring of the service and used to do all the Ops work before Astro. She’s all about velocity. She’d rather get something good enough and out the door than perfect. Platforms, libraries, code, and documentation have to be easy to use and learn to keep moving fast. If something’s new and promising, she’s going to check it out."
-- **Ops**: "Astro: Ops - He joined after the dev workload got too large for Nico and London. He’s in charge of pushing new releases, any “tests” they run, and is the point person if the service goes down. He’s the one with the pager. He wants to know everything about the health of the service and the details of any code they write. Everything should be scriptable. If a platform, library, or some code is proven and stable, he’d prefer they use that to the shiny new thing."
+For example, here are 4 personas that are generally assigned to technology-related learning modules:
+
+| Persona	| Acronym | Objective		| Case Study  |
+| :-----	| :------ | :----	      | :------      |
+| **CTO** | `cto` | Strategy | "Terry: Technology decision maker - He started the company, it’s his baby. He’s about moving fast but also building something for the long term. He wants to make sure the team has control over their platform and code. The risk is on him so he wants technologies he can trust, especially when it comes to security and privacy." |
+| **Business** | `biz` | Valuation | "Steve.: Business - When more focus on the product was needed, Nico hired him. He’s all about velocity like London. He wants products in customers’ hands as fast as possible, and whatever technologies help with that, he likes. He is always monitoring the services and going through data to try to understand his customers better." |
+| **Developer** | `dev` | Implementation | "Dan: Developer - While her main job is development, she also does a little monitoring of the service and used to do all the Ops work before Astro. She’s all about velocity. She’d rather get something good enough and out the door than perfect. Platforms, libraries, code, and documentation have to be easy to use and learn to keep moving fast. If something’s new and promising, she’s going to check it out." |
+| **Sys Admin** | `ops` | Efficiency | "Robert: Ops - He joined after the dev workload got too large for Nico and London. He’s in charge of pushing new releases, any “tests” they run, and is the point person if the service goes down. He’s the one with the pager. He wants to know everything about the health of the service and the details of any code they write. Everything should be scriptable. If a platform, library, or some code is proven and stable, he’d prefer they use that to the shiny new thing." |
 
 #### Objectives
 
