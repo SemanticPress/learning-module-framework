@@ -94,7 +94,7 @@ There are 3 logical components that are used to define a specification, or ontol
 
 #### Storyline / Narrative
 
-A chain, or thread, of communication teach objectives to specific personas.
+A chain, or thread, of communication teach objectives to specific personas.  It's not meant to be displayed to a learner, rather it aids the instructor in understanding flow and organizing content. This can be particularly helpful with assisting with train-the-trainer activities.
 
 #### Slides
 
