@@ -1,4 +1,4 @@
-# SPBadge Learning Module Framework
+# SP Learning Module Framework
 
 ![](http://www.wired.com/wp-content/uploads/2015/07/HighRes_LEGO_DUPLO_bricks-story-582x318.jpg)
 
@@ -69,7 +69,7 @@ This is the minimum skill level that you feel is appropriate for a given module.
 
 #### Personas
 
-There are 4 personas that we are targeting for SPBadge:
+There are 4 personas that we are targeting for SP Learning:
 
 - **CTO**: "Nico: Technology decision maker - He started the company, it’s his baby. He’s about moving fast but also building something for the long term. He wants to make sure the team has control over their platform and code. The risk is on him so he wants technologies he can trust, especially when it comes to security and privacy."
 - **Biz**: "A.C.: Business - When more focus on the product was needed, Nico hired him. He’s all about velocity like London. He wants products in customers’ hands as fast as possible, and whatever technologies help with that, he likes. He is always monitoring the services and going through data to try to understand his customers better."
