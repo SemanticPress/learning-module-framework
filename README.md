@@ -1,5 +1,7 @@
 # SPBadge Learning Module Framework
 
+![](http://www.wired.com/wp-content/uploads/2015/07/HighRes_LEGO_DUPLO_bricks-story-582x318.jpg)
+
 Guidelines for developing badge-based content within a modular learning system.
 
 Author: TZ Martin
